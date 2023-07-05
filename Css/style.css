@@ -261,16 +261,19 @@ audio {
   margin-top: 2rem;
   background-color: #222;
 }
+
 .contact .row .map {
   flex: 1 1 45rem;
   width: 100%;
   object-fit: cover;
 }
+
 .contact .row form {
   flex: 1 1 45rem;
   padding: 5rem 2rem;
   text-align: center;
 }
+
 .contact .row form .input-group {
   display: flex;
   align-items: center;
@@ -279,11 +282,13 @@ audio {
   border: 1px solid #eee;
   padding-left: 2rem;
 }
+
 .contact .row form .input-group input {
   width: 100%;
   padding: 2rem;
   font-size: 1.7rem;
   background: none;
+  color: #fff;
 }
 
 .contact .row form .btn {
@@ -294,6 +299,9 @@ audio {
   color: #fff;
   background-color: var(--primary);
   cursor: pointer;
+}
+.contact p {
+  font-size: 1.1rem;
 }
 /* contact section end */
 
@@ -338,14 +346,14 @@ footer .credit a {
 /* media queries start */
 
 /* laptop */
-@media (max-width: 1024px) {
+@media (max-width: 1366px) {
   html {
     font-size: 75%;
   }
 }
 
 /* tablet */
-@media (max-width: 768px) {
+@media (max-width: 758px) {
   html {
     font-size: 62.5%;
   }
@@ -408,7 +416,7 @@ footer .credit a {
   }
 }
 .menu p {
-  font-size: 1.3rem;
+  font-size: 1.2rem;
 }
 .contact .row {
   flex-wrap: wrap;
@@ -422,7 +430,7 @@ footer .credit a {
 }
 
 /* phone */
-@media (max-width: 640px) {
+@media (max-width: 450px) {
   html {
     font-size: 55%;
   }
